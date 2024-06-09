@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toolbox-cont{
+   background-color: #222831;
+   height: 5rem;
+   display: flex;
+   align-items: center;
+}
+
+.toolbox-priority-cont{
+    height: 3rem;
+    width: 20rem;
+    background-color: #FCFFE0;
+    margin-left: 3rem;
+    display: flex;
+    align-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.color{
+ height: 1.5rem;
+ width: 3rem;
+}
+
+.red{
+    background-color: #CF0A0A;
+}
+.blue{
+    background-color: #A7E6FF;
+}
+.green{
+    background-color: #0A6847;
+}
+
+.pink{
+    background-color: #FFCBCB;
+}
+
+.action-btn-cont {
+    height: 3rem;
+    width: 10rem;
+    background-color: #FCFFE0;
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add-btn {
+    font-size: 1.5rem;
+}
+
+.remove-btn{
+    font-size: 1.5rem;
+
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin: 2rem 1rem;
+}
+
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color: #FDF4F5;
+    position: relative;
+}
+
+.ticket-color {
+    height: 1rem;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    background-color: #8CB9BD;
+    font-weight: 600;
+}
+
+.ticket-area{
+    padding: 5px;
+    height: calc(10rem - 1rem - 1.5rem);
+    font-size: 1.25rem;
+    outline: none;
+}
+
+.modal-cont{
+    height: 50vh;
+    width: 50vw;
+    display: none;
+    border: 2px solid grey;
+    position: fixed;
+    left: 25vw;
+    top: 25vh;
+}
+
+.textarea-cont {
+    height: 100%;
+    width: 75%;
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 2rem;
+    font-size: 2rem;
+    border-right: 2px solid grey;
+    background-color: #F5F7F8;
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F3EEEA;
+}
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+
+}
+
+.active {
+    border: 4px solid yellow;
+}
+
+.lock-unlock-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
